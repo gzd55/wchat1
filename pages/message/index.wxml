@@ -1,0 +1,57 @@
+<!--pages/message/index.wxml-->
+<view class="first">
+  <view class="button">
+    <image src="/static/love.jpg"></image>
+    <text>赞和收藏</text>
+  </view>
+  <view class="button">
+    <image src="/static/love.jpg"></image>
+    <text>最近来访</text>
+  </view>
+  <view class="button">
+    <image src="/static/love.jpg"></image>
+    <text>评论和@</text>
+  </view>
+</view>
+
+<view class="second">
+  <view class="image">
+    <image src="/static/love.jpg"></image>
+  </view>
+  <view class="message">
+    <view class="up">
+      <view class="title">
+        <text>系统消息</text>
+      </view>
+      <view class="time">
+        <text>2022-05-22</text>
+      </view>
+    </view>
+    <view class="down">
+      <view class="new">
+        <text>你好，你有新消息查收........</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="second">
+  <view class="image">
+    <image src="/static/love.jpg"></image>
+  </view>
+  <view class="message">
+    <view class="up">
+      <view class="title">
+        <text>系统消息</text>
+      </view>
+      <view class="time">
+        <text>2022-05-22</text>
+      </view>
+    </view>
+    <view class="down">
+      <view class="new">
+        <text>你好，你有新消息查收........</text>
+      </view>
+    </view>
+  </view>
+</view>

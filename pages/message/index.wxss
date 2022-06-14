@@ -1,0 +1,51 @@
+/* pages/message/index.wxss */
+
+.first .button image{
+  border-radius: 15rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.first  {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  /* width: 100rpx; */
+  height: 300rpx;
+  border: 2rpx solid #dddddd;
+}
+.first .button{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+ align-items: center;
+  
+}
+  /* second */
+.second image{
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+align-items: center;
+  height: 150rpx;
+  border: 2rpx solid #dddddd;
+}
+.second .message{
+ 
+  width: 500rpx;
+ 
+}
+.second .message .up{
+  display: flex;
+  flex: row;
+  justify-content:space-between;
+  align-items: center;
+}
+.second .message .up .time{
+  font-size: 25rpx;
+}

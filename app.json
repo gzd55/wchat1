@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index",
+    "pages/auction/index",
+    "pages/message/index",
+    "pages/my/index",
+    "pages/redirect/index",
+    "pages/bind/index",
+    "pages/goods/index",
+    "pages/publish/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "navigationBarTitleText": "拍卖商城"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "1页",
+        "iconPath": "/static/tabbar/QQ截图20220512221802.png",
+        "selectedIconPath": "/static/tabbar/QQ截图20220512222350.png"
+      },
+      {
+        "pagePath": "pages/logs/index",
+        "text": "2页"
+      },
+      {
+        "pagePath": "pages/auction/index",
+        "text": "拍卖"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ],
+    "color": "#ff00ff",
+    "selectedColor": "#ffff00"
+  },
+  "sitemapLocation": "sitemap.json"
+}

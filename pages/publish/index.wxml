@@ -1,0 +1,17 @@
+<!--pages/publish/index.wxml-->
+<view bindtap="addimage">请上传图片</view>
+<view class="container">
+<image wx:for="{{imagelist}}" src="{{item}}"></image>
+</view>
+
+<textarea >你好
+
+中国
+
+人</textarea>
+<text>
+  你好
+
+中国
+
+</text>

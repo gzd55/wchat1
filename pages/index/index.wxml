@@ -1,0 +1,60 @@
+<!--pages/index/index.wxml-->
+<!-- <view bindtap="click" data-nid="123" data-name="sb">点我跳转</view> -->
+<text bindtap="click" data-nid="123" data-name="sb">点我跳转</text>
+<navigator url="/pages/redirect/index?idd=3">点我跳转2</navigator>
+<view>示例1</view>
+<view class="menu1">
+  <view class="item">
+
+    <image src="/static/love.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/love.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/love.jpg"></image>
+    <text>图片</text>
+  </view>
+</view>
+<view>示例2</view>
+<view class="menu2">
+  <view class="item">
+
+    <image src="/static/love.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/love.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/love.jpg"></image>
+    <text>图片</text>
+  </view>
+</view>
+<view bindtap="click1" data-id="2" data-name="new">示例3</view>
+<view class="auction">
+  <view class="item1">
+    <view class="title">第一场 </view>
+    <view class="tips">
+     <view class="status">2022.5.17</view>
+     <view class="cnt">0次围观</view>
+    </view>
+    <view class="big">
+      <image src="/static/love.jpg"></image>
+    </view>
+    <view class="smallimage">
+      <image src="/static/love.jpg"></image>
+      <image src="/static/love.jpg"></image>
+
+    </view>
+  </view>
+</view>
+<!--
+  <text>第一个页面</text>
+<view class="c1">点下标可以翻页</view>
+<image src="/static/love.jpg"></image>
+-->
+        

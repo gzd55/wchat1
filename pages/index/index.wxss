@@ -1,0 +1,69 @@
+/* pages/index/index.wxss */
+.c1{
+  color:red
+}
+
+.menu1{
+  /* height: 2000rpx; */
+  border: 1rpx solid #dddddd;
+  
+  display: flex;
+  flex-direction: row;/*主轴方向*/
+  justify-content:space-around;/*元素在主轴方向上如何展示*/
+  align-items: center;/*副轴如何展示*/
+}
+.menu1 .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu2{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menu1 image,.menu2 image{
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+
+}
+.auction .item1 .title{
+  font-size: 50rpx;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content:start
+}
+.auction .item1 .tips{
+  /* font-size: 28rpx; */
+  color: #600ce9;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+
+}
+.auction .item1 .big{
+  height:100rpx;
+  overflow: hidden;
+}
+.auction .item1 .big image{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center
+}
+
+.auction .item1 .smallimage image{
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  padding-right: 50rpx;
+}
+.auction .item1 .smallimage{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start
+  
+}

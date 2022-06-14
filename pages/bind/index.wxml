@@ -1,0 +1,14 @@
+<!--pages/bind/index.wxml-->
+<text>数据绑定</text>
+<view>数据：{{message}}</view>
+<view>数据2：{{message}}</view>
+<button bindtap="changedata">点击修改数据</button>
+<view>当前用户名：{{name}}</view>
+<view>
+  当前用户头像：
+  <!-- <image src="/static/defaulthead.jpg" style="height: 200rpx;width: 200rpx;"></image> -->
+  <image src="{{imageurl}}" style="height: 200rpx;width: 200rpx;"></image>
+</view>
+<!-- <view bindtap="getname">获取当前用户名</view> -->
+<button bindtap="getname">获取当前用户名</button>
+<view bindtap="getlocation">{{locapath}}</view>

@@ -1,0 +1,14 @@
+<!--pages/goods/index.wxml-->
+<text>商品列表</text>
+<view>
+    <!-- <view wx:for="{{datalist}}" wx:for-index="idx" wx:for-item="x">{{idx}}-{{x}}</view> -->
+  <view wx:for="{{datalist}}">{{index}}-{{item}}</view>
+  <view>商品2</view>
+  <view>商品3</view>
+  <view >
+    {{userinfo.name}}
+    {{userinfo.age}}
+    <view wx:for="{{userinfo}}">{{index}}{{item}}</view>
+  </view>
+  <view bindtap="addage">递增年龄</view>
+</view>
