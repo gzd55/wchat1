@@ -16,6 +16,7 @@ git remote rm origin
 git remote add origin [url]
 
 3.直接修改config文件(打开.git文件夹找到config文件，替换远程地址)
-————————————————
-版权声明：本文为CSDN博主「BIG_PEI」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/BIG_PEI/article/details/120154089
+
+
+git pull origin master    #git pull --rebase origin master
+git push -u origin master
